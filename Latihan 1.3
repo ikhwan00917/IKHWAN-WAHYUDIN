@@ -1,0 +1,25 @@
+package Hp;
+
+public class Handphone {
+    String hidupkan, Panggilan, SMS, Matikan;
+        void printHandphone(){
+        System.out.println("hidupkan: " + hidupkan);
+        System.out.println("lakukanPanggilan: " + Panggilan);
+        System.out.println("kirimSMS " + SMS);
+        System.out.println("matikan " + Matikan);
+        }
+}
+
+package Hp;
+
+public class HandphoneBeraksi {
+    public static void main(String[] args){
+        Handphone Handphoneku = new Handphone();
+        
+        Handphoneku.hidupkan = "Handphone hiduo ...";
+        Handphoneku.Panggilan = "Kring, kring, kring ... panggilan dilakukan";
+        Handphoneku.SMS = "Dung, dung ... sms berhasil terkirim";
+        Handphoneku.Matikan = "Handphone mati ...";
+        Handphoneku.printHandphone();
+    }
+}
