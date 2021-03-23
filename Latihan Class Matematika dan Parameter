@@ -1,0 +1,52 @@
+package matematika;
+
+/**
+ *
+ * @author ikhwa
+ */
+public class Matematika {
+    int a, b, c, d;
+    int Pertambahan ()
+    {
+        return a + a;
+    }
+    int Pengurangan()
+    {
+        return b - c;
+    }
+    int Perkalian()
+    {
+        return b * a;
+    }
+    int Pembagian()
+    {
+        return a / d;
+    }
+        void hasil(int a, int b, int c, int d){
+        }
+}
+
+
+public class MatematikaBeraksi {
+    public static void main(String[] args){
+        Matematika Matematikaku = new Matematika();
+        int Pertambahan;
+        int Pengurangan;
+        int Perkalian;
+        int Pembagian;
+        int hasil;
+        Matematikaku.a = 20;
+        Matematikaku.b = 10;
+        Matematikaku.c = 5;
+        Matematikaku.d = 2;
+        System.out.println();
+        Pertambahan = Matematikaku.a+Matematikaku.a;
+        System.out.println("Pertambahan: 20+20 =" +Pertambahan);
+        Pengurangan = Matematikaku.b-Matematikaku.c;
+        System.out.println("Pengurangan: 10-5 =" +Pengurangan);
+        Perkalian = Matematikaku.b*Matematikaku.a;
+        System.out.println("Perkalian: 10*20 =" +Perkalian);
+        Pembagian = Matematikaku.a/Matematikaku.d;
+        System.out.println("Pembagian: 20/10 =" +Pembagian);     
+    }
+}
