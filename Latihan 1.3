@@ -23,3 +23,29 @@ public class HandphoneBeraksi {
         Handphoneku.printHandphone();
     }
 }
+
+
+
+package latihan;
+public class Mahasiswa {
+    String Membaca, Nyontek, Modifikasi;
+        void printMahasiswa(){
+        System.out.println("membaca: " + Membaca);
+        System.out.println("nyontek: " + Nyontek);
+        System.out.println("modifikasi " + Modifikasi);
+        }
+}
+
+package latihan;
+public class MahasiswaBeraksi {
+    public static void main(String[] args){
+        Mahasiswa Mahasiswaku = new Mahasiswa();
+        
+        Mahasiswaku.Membaca = "Mahasiswa Membaca ...";
+        Mahasiswaku.Nyontek = "Mahasiswa mencontek";
+        Mahasiswaku.Modifikasi = "Mahasiswa Memodifikasi";
+        Mahasiswaku.printMahasiswa();
+    }
+}
+
+
