@@ -1,0 +1,38 @@
+package Latihan2;
+
+
+public class Bank {
+        int saldo;
+        public Bank(int saldo){
+            this.saldo = saldo;
+        }
+        public void simpanUang(int value){
+            saldo += value;
+        }
+        public void ambilUang(int value){
+            saldo -= value;
+        }
+        public int getSaldo(){
+            return saldo;
+        }
+    }
+    
+package Latihan2;
+import java.util.Scanner;
+
+public class BankBeraksi {
+    public static void main (String[] args){
+        Scanner scan = new Scanner(System.in);
+        Bank bankku = new Bank (100000);
+        System.out.println("Selaamt Datang di Bank ABC");
+        System.out.println("Saldo saat ini: Rp." +bankku.getSaldo());
+        System.out.print("Simpan uang : Rp."); 
+        int simpan =  scan.nextInt();
+        bankku.simpanUang(simpan);
+        System.out.println("Saldo saat ini : Rp." +bankku.getSaldo());
+        System.out.print("Ambil uang : Rp.");
+        int ambil = scan.nextInt();
+        bankku.ambilUang(ambil);
+        System.out.println("Saldo saat ini : Rp." +bankku.getSaldo());
+    }
+}
