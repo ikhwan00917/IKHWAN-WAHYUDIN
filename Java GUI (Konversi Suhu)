@@ -1,0 +1,456 @@
+package GUI;
+public class CelciusToFahreinhet extends javax.swing.JFrame {
+    public CelciusToFahreinhet() {
+        initComponents();
+    }
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        CelciusLabel = new javax.swing.JLabel();
+        ConvertButton = new javax.swing.JButton();
+        CelciusTextField = new javax.swing.JTextField();
+        FahrenheitLabel = new javax.swing.JLabel();
+        ConvertButton1 = new javax.swing.JButton();
+        KelvinLabel = new javax.swing.JLabel();
+        ConvertButton2 = new javax.swing.JButton();
+        ReamurLabel = new javax.swing.JLabel();
+        FahrenheitTextField = new javax.swing.JTextField();
+        FahreiheitLabel1 = new javax.swing.JLabel();
+        ConvertFhc = new javax.swing.JButton();
+        ConvertFhr = new javax.swing.JButton();
+        CelciusLabel1 = new javax.swing.JLabel();
+        KelvinLabel1 = new javax.swing.JLabel();
+        ReamurLabel1 = new javax.swing.JLabel();
+        ConvertFhkButton = new javax.swing.JButton();
+        KelvinTextField = new javax.swing.JTextField();
+        ReamurTextField = new javax.swing.JTextField();
+        ConverrtKcButton = new javax.swing.JButton();
+        ConvertKfButton = new javax.swing.JButton();
+        ConvertKrButton = new javax.swing.JButton();
+        ConvertRcButton = new javax.swing.JButton();
+        ConvertRfButton = new javax.swing.JButton();
+        ConvertRkButton = new javax.swing.JButton();
+        KelvinLabel2 = new javax.swing.JLabel();
+        ReamurLabel3 = new javax.swing.JLabel();
+        CelciusLabel3 = new javax.swing.JLabel();
+        FahrenheitLabel3 = new javax.swing.JLabel();
+        KelvinLabel3 = new javax.swing.JLabel();
+        CelciusLabel2 = new javax.swing.JLabel();
+        FahrenheitLabel2 = new javax.swing.JLabel();
+        ReamurLabel2 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        CelciusLabel.setText("Celcius");
+
+        ConvertButton.setText("Convert");
+        ConvertButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertButtonActionPerformed(evt);
+            }
+        });
+
+        FahrenheitLabel.setText("Fahrenheit");
+
+        ConvertButton1.setText("Convert");
+        ConvertButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertButton1ActionPerformed(evt);
+            }
+        });
+
+        KelvinLabel.setText("Kelvin");
+
+        ConvertButton2.setText("Convert");
+        ConvertButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertButton2ActionPerformed(evt);
+            }
+        });
+
+        ReamurLabel.setText("Reamur");
+
+        FahreiheitLabel1.setText("Fahrenheit");
+
+        ConvertFhc.setText("Convert");
+        ConvertFhc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertFhcActionPerformed(evt);
+            }
+        });
+
+        ConvertFhr.setText("Convert");
+        ConvertFhr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertFhrActionPerformed(evt);
+            }
+        });
+
+        CelciusLabel1.setText("Celcius");
+
+        KelvinLabel1.setText("Kelvin");
+
+        ReamurLabel1.setText("Reamur");
+
+        ConvertFhkButton.setText("Convert");
+        ConvertFhkButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertFhkButtonActionPerformed(evt);
+            }
+        });
+
+        ConverrtKcButton.setText("Convert");
+        ConverrtKcButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConverrtKcButtonActionPerformed(evt);
+            }
+        });
+
+        ConvertKfButton.setText("Convert");
+        ConvertKfButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertKfButtonActionPerformed(evt);
+            }
+        });
+
+        ConvertKrButton.setText("Convert");
+        ConvertKrButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertKrButtonActionPerformed(evt);
+            }
+        });
+
+        ConvertRcButton.setText("Convert");
+        ConvertRcButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertRcButtonActionPerformed(evt);
+            }
+        });
+
+        ConvertRfButton.setText("Convert");
+        ConvertRfButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertRfButtonActionPerformed(evt);
+            }
+        });
+
+        ConvertRkButton.setText("Convert");
+        ConvertRkButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ConvertRkButtonActionPerformed(evt);
+            }
+        });
+
+        KelvinLabel2.setText("Kelvin");
+
+        ReamurLabel3.setText("Reamur");
+
+        CelciusLabel3.setText("Celcius");
+
+        FahrenheitLabel3.setText("Fahrenheit");
+
+        KelvinLabel3.setText("Kelvin");
+
+        CelciusLabel2.setText("Celcius");
+
+        FahrenheitLabel2.setText("Fahrenheit");
+
+        ReamurLabel2.setText("Reamur");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(ConvertButton2)
+                        .addGap(18, 18, 18)
+                        .addComponent(ReamurLabel))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(ConvertButton)
+                            .addComponent(CelciusTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CelciusLabel)
+                            .addComponent(FahrenheitLabel)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(ConvertButton1)
+                        .addGap(18, 18, 18)
+                        .addComponent(KelvinLabel))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(KelvinTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(KelvinLabel2)))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(ConvertFhr, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(ConvertFhkButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(ConvertFhc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(ReamurLabel1)
+                                    .addComponent(KelvinLabel1)
+                                    .addComponent(CelciusLabel1)))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(ConvertRcButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(ConvertRfButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(ConvertRkButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(ReamurTextField))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CelciusLabel3)
+                                    .addComponent(FahrenheitLabel3)
+                                    .addComponent(KelvinLabel3)
+                                    .addComponent(ReamurLabel3)))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addComponent(FahrenheitTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(FahreiheitLabel1)))
+                .addContainerGap(98, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(ConverrtKcButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(CelciusLabel2))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(ConvertKfButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(FahrenheitLabel2))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(ConvertKrButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(ReamurLabel2)))
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(CelciusTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(CelciusLabel))
+                                .addGap(3, 3, 3))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addGap(16, 16, 16)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(FahrenheitTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(FahreiheitLabel1))))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(ConvertButton)
+                                    .addComponent(FahrenheitLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(ConvertButton1)
+                                    .addComponent(KelvinLabel))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(ConvertButton2)
+                                    .addComponent(ReamurLabel)))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(ConvertFhc)
+                                    .addComponent(CelciusLabel1))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(KelvinLabel1)
+                                    .addComponent(ConvertFhkButton))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(ConvertFhr)
+                                    .addComponent(ReamurLabel1))))
+                        .addGap(27, 27, 27)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(ReamurTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(KelvinTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(KelvinLabel2)
+                            .addComponent(ReamurLabel3))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(ConverrtKcButton)
+                            .addComponent(ConvertRcButton)
+                            .addComponent(CelciusLabel3)))
+                    .addComponent(CelciusLabel2, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ConvertKfButton)
+                    .addComponent(ConvertRfButton)
+                    .addComponent(FahrenheitLabel3)
+                    .addComponent(FahrenheitLabel2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ConvertKrButton)
+                    .addComponent(ConvertRkButton)
+                    .addComponent(KelvinLabel3)
+                    .addComponent(ReamurLabel2))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void ConvertButtonActionPerformed(java.awt.event.ActionEvent evt) {                                              
+double Celcius = Double.parseDouble(CelciusTextField.getText());
+double Fahrenheit =Celcius * 1.8 + 32;
+     FahrenheitLabel.setText(Fahrenheit + " Fahrenheit");
+    }                                             
+
+    private void ConvertButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                               
+double Celcius = Double.parseDouble(CelciusTextField.getText());
+double Kelvin = Celcius + 273.15;
+    KelvinLabel.setText(Kelvin + " Kelvin");
+    }                                              
+
+    private void ConvertButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                               
+double Celcius = Double.parseDouble(CelciusTextField.getText());
+double Reamur =Celcius * 8;
+     ReamurLabel.setText(Reamur + " Reamur");
+    }                                              
+
+    private void ConvertFhcActionPerformed(java.awt.event.ActionEvent evt) {                                           
+double Fahrenheit = Double.parseDouble(FahrenheitTextField.getText());
+double Celcius =(Fahrenheit - 32)/1.8;
+     CelciusLabel1.setText(Celcius + " Celcius");
+    }                                          
+
+    private void ConvertFhkButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                 
+double Fahrenheit = Double.parseDouble(FahrenheitTextField.getText());
+double Kelvin =(Fahrenheit + 459.67)/1.8;
+     KelvinLabel1.setText(Kelvin + " Kelvin");
+    }                                                
+
+    private void ConvertFhrActionPerformed(java.awt.event.ActionEvent evt) {                                           
+double Fahrenheit = Double.parseDouble(FahrenheitTextField.getText());
+double Reamur =(Fahrenheit - 32)/2.25;
+     ReamurLabel1.setText(Reamur + " Reamur");
+    }                                          
+
+    private void ConverrtKcButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                 
+double Kelvin = Double.parseDouble(KelvinTextField.getText());
+double Celcius =Kelvin - 273.15;
+     CelciusLabel2.setText(Celcius + " Celcius");
+    }                                                
+
+    private void ConvertKfButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                
+double Kelvin = Double.parseDouble(KelvinTextField.getText());
+double Fahrenheit =Kelvin * 1.8 - 459.67;
+     FahrenheitLabel2.setText(Fahrenheit + " Fahrenheit");
+    }                                               
+
+    private void ConvertKrButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                
+double Kelvin = Double.parseDouble(KelvinTextField.getText());
+double Reamur =(Kelvin - 273.15)*0.8;
+     ReamurLabel2.setText(Reamur + " Reamur");
+    }                                               
+
+    private void ConvertRcButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                
+double Reamur = Double.parseDouble(ReamurTextField.getText());
+double Celcius =Reamur/8;
+     CelciusLabel3.setText(Celcius + " Celcius");
+    }                                               
+
+    private void ConvertRfButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                
+double Reamur = Double.parseDouble(ReamurTextField.getText());
+double Fahrenheit =(Reamur - 7.5)*24/7+32;
+     FahrenheitLabel3.setText(Fahrenheit + " Fahrenheit");
+    }                                               
+
+    private void ConvertRkButtonActionPerformed(java.awt.event.ActionEvent evt) {                                                
+double Reamur = Double.parseDouble(ReamurTextField.getText());
+double Kelvin =Reamur/8+273.15;
+     KelvinLabel3.setText(Kelvin + " Kelvin");
+    }                                               
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(CelciusToFahreinhet.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(CelciusToFahreinhet.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(CelciusToFahreinhet.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(CelciusToFahreinhet.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new CelciusToFahreinhet().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JLabel CelciusLabel;
+    private javax.swing.JLabel CelciusLabel1;
+    private javax.swing.JLabel CelciusLabel2;
+    private javax.swing.JLabel CelciusLabel3;
+    private javax.swing.JTextField CelciusTextField;
+    private javax.swing.JButton ConverrtKcButton;
+    private javax.swing.JButton ConvertButton;
+    private javax.swing.JButton ConvertButton1;
+    private javax.swing.JButton ConvertButton2;
+    private javax.swing.JButton ConvertFhc;
+    private javax.swing.JButton ConvertFhkButton;
+    private javax.swing.JButton ConvertFhr;
+    private javax.swing.JButton ConvertKfButton;
+    private javax.swing.JButton ConvertKrButton;
+    private javax.swing.JButton ConvertRcButton;
+    private javax.swing.JButton ConvertRfButton;
+    private javax.swing.JButton ConvertRkButton;
+    private javax.swing.JLabel FahreiheitLabel1;
+    private javax.swing.JLabel FahrenheitLabel;
+    private javax.swing.JLabel FahrenheitLabel2;
+    private javax.swing.JLabel FahrenheitLabel3;
+    private javax.swing.JTextField FahrenheitTextField;
+    private javax.swing.JLabel KelvinLabel;
+    private javax.swing.JLabel KelvinLabel1;
+    private javax.swing.JLabel KelvinLabel2;
+    private javax.swing.JLabel KelvinLabel3;
+    private javax.swing.JTextField KelvinTextField;
+    private javax.swing.JLabel ReamurLabel;
+    private javax.swing.JLabel ReamurLabel1;
+    private javax.swing.JLabel ReamurLabel2;
+    private javax.swing.JLabel ReamurLabel3;
+    private javax.swing.JTextField ReamurTextField;
+    private javax.swing.JPanel jPanel1;
+    // End of variables declaration                   
+}
