@@ -1,0 +1,38 @@
+package matematikacanggih;
+
+/**
+ *
+ * @author ikhwa
+ */
+public class MatematikaCanggihBanget{
+    
+    void pertambahanEmpat (int a, int b, int c, int d){
+    System.out.println(a+"+"+b+"+"+c+"+"+d+"="+(a+b));
+    }
+    void pertambahan (int a, int b){
+    System.out.println(a+"+"+b+"="+(a+b));
+    }
+    void perkalian (int a, int b){
+    System.out.println(a+"*"+b+"="+(a*b));
+    }
+    void modulus (int a, int b){
+        System.out.println(a+"%"+b+"="+(a%b));
+    }
+    
+    
+}
+package matematikacanggih;
+
+/**
+ *
+ * @author ikhwa
+ */
+public class MatematikaCanggihBangetBeraksi {
+    public static void main (String[] args){
+         MatematikaCanggihBanget Mtk = new MatematikaCanggihBanget();
+         Mtk.pertambahanEmpat (10,20,30,40);
+         Mtk.pertambahan(20, 20);
+         Mtk.perkalian(100,20);
+         Mtk.modulus(100,3);
+    }
+}
